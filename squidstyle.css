@@ -1,0 +1,36 @@
+body {
+  background-color: #05d1ff;
+  
+}
+ul.navbar {
+  list-style-type:none;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: gold;
+  position: fixed;
+  top: 0;
+}
+li.navbar {
+  display:inline;
+  float: left;
+  text-align: center;
+}
+li a {
+  display: block;
+  text-decoration: none;
+  padding: 5px 100px;
+  color: salmon;
+}
+li a:hover {
+  background-color: green;
+  color: red;
+}
+div.max {
+  border: 3px solid blue;
+  max-width: 1600px;
+  max-height: 1193px;
+      margin-left: auto;
+  margin-right: auto;
+}
